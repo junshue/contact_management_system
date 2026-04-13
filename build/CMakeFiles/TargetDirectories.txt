@@ -1,2 +1,0 @@
-D:/code/vscode/contact_management_system/build/CMakeFiles/edit_cache.dir
-D:/code/vscode/contact_management_system/build/CMakeFiles/rebuild_cache.dir
