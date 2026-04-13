@@ -1,5 +1,7 @@
 #include<iostream>
+#include<string>
 #include "cleanperson.h"
+#include "common.h"
 using namespace std;
 
 void CleanPerson::cleanPerson(Addressbooks * abs) {

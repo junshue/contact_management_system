@@ -1,6 +1,7 @@
 #pragma once
-
+#include "common.h"
+#include<string>
 class AddPerson {  //类用大驼峰
     public:
-        void addPerson();  //函数名用小驼峰
+        void addPerson(Addressbooks * abs);  //函数名用小驼峰
 };

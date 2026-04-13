@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 #include "showmenu.h"
 using namespace std;
 

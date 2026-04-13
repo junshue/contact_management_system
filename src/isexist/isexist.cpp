@@ -1,5 +1,7 @@
 #include<iostream>
+#include<string>
 #include "isexist.h"
+#include "common.h"
 using namespace std;
 
 //检测联系人是否存在 存在返回地址 不存在返回-1

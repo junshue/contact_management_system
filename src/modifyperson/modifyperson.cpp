@@ -1,12 +1,16 @@
 #include<iostream>
+#include<string>
 #include "modifyperson.h"
+#include "isexist.h"
+#include "common.h"
 using namespace std;
 
 void ModifyPerson::modifyPerson(Addressbooks* abs) {
 	cout << "请输入你要修改的联系人" << endl;
 	string name;
 	cin >> name;
-	int ret = isExist(abs, name);
+    IsExist exist;
+	int ret = exist.isExist(abs, name);
 
 	if (ret != -1) {
 		int exit = 1;

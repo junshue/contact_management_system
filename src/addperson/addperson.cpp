@@ -1,5 +1,7 @@
 #include<iostream>
+#include<string>
 #include "addperson.h"
+#include "common.h"
 using namespace std;
 
 void AddPerson::addPerson(Addressbooks * abs) {

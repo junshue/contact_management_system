@@ -1,13 +1,16 @@
 #include<iostream>
+#include<string>
 #include "findperson.h"
+#include "isexist.h"
+#include "common.h"
 using namespace std;
 
 void FindPerson::findPerson(Addressbooks* abs) {
 	cout << "请输入你要查找的联系人" << endl;
 	string name;
 	cin >> name;
-
-	int ret = isExist(abs, name);
+    IsExist exist;
+	int ret = exist.isExist(abs, name);
 	if (ret != -1) {
 		cout << "姓名： " << abs->personArray[ret].m_Name << "\t";
 		cout << "年龄： " << abs->personArray[ret].m_Age << "\t";

@@ -41,5 +41,5 @@
 *.dwo
 
 #bluid
-bluid/
-bin/
+/bluid/
+/bin/

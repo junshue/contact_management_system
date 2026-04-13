@@ -1,5 +1,7 @@
 #include<iostream>
+#include<string>
 #include "showperson.h"
+#include "common.h"
 using namespace std;
 
 
