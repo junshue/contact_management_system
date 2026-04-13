@@ -1,3 +1,0 @@
-D:\software\cmake-4.3.1-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\cleanperson.dir/objects.a
-D:\software\mingw64\bin\ar.exe qc CMakeFiles\cleanperson.dir/objects.a @CMakeFiles\cleanperson.dir\objects1.rsp
-D:\software\mingw64\bin\g++.exe -g -shared -o D:\code\vscode\contact_management_system\bin\libcleanperson.dll -Wl,--out-implib,libcleanperson.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\cleanperson.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\cleanperson.dir\linkLibs.rsp
